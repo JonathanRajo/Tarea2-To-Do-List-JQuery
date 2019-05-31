@@ -1,0 +1,95 @@
+body
+{
+	background-image: url(../img/1.jpg);
+ 	background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+	background-color: #26282E;
+	color: #efefef;
+    font-family: 'Arial', sans-serif;
+
+    
+}
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
+.todo
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#escribir
+ {
+      width: 30%;
+	  margin-top: 10px;
+	  border: solid;
+	  padding: 10px;
+	  font-size: 20px;
+	  background-color: #9bc7e6;
+}
+
+#escribir 
+{
+	  color: white;
+	  text-align: center;
+}
+
+.btn
+{
+	background-color: #74ccf4;
+	margin-top: 20px;
+	border: 3px black solid;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 28px;
+}
+
+.btn:hover
+{
+	cursor:pointer;
+	background-color: #00a8a8;
+}
+
+ul{
+	list-style: none;
+	margin-top: 34px;
+	margin-bottom: 34px;
+	
+	
+  }
+ul li{
+	font-size: 1.5em;
+	width: 98%;
+	background: #00a8a8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid white
+	
+}
+ul li button{
+	margin-left: 40px;
+	background: #0176c4;
+	color: antiquewhite;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: none;
+	padding: 15px 15px;
+	float: right;
+
+}
+.item{
+margin-right: 26px;
+border: 3px solid white;
+
+
+}
